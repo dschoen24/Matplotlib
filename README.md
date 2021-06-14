@@ -7,7 +7,8 @@ As a senior data analyst at the company, you've been given access to the complet
 
 **CODE:** Jupyter Notebook was used to create the code - Code is saved as anti_cancer_pymaceuticals.ipynb
 
-**OBSERVATIONS:** A total of 4 observations were made and show at the beginning of the code in Jupyter Notebook
+**OBSERVATIONS:** A total of 4 observations were made and show at the beginning of the code in Jupyter Notebook.  
+These observations are based on reviewing all figures that were generated.
 
 **INSTRUCTIONS:**  Code was constructed based on the instructions given.  Following is a recap:
 
@@ -21,3 +22,12 @@ As a senior data analyst at the company, you've been given access to the complet
   - A Pandas Pie plot and a Matplotlib Pie Chart showing the distribution between female and male mice in the study were created
       - The above plots look identical
 
+  - The final tumor volume of each mouse across the 4 most promising treatment regimens: Capomulin, Ramacine, Infubinol and Ceftamin were calculated
+  - The quartiles and IQR were determined quantitatively to see if there were any potential outliers across these 4 regimens
+  - Using Matplotlib, a box plot and whisker plot of the final tumor volume for the 4 treatment regimens was created (all within the same figure).
+
+  - Mouse treated with Capomulin was selected and a line plot of tumor volume vs. timepoint was generated for that mouse (b128)
+  - A Scatter plot of tumorvolume vs. mouse weight was created for the Capomulin treatment
+
+  - Correlation and Linear Regression model was calculated between mouse weight and average tumor volume for the Capomulin treatment
+  - The linear regression model was calculated on top of the previous scatter plot
